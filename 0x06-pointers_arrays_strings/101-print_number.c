@@ -8,11 +8,9 @@ void print_number(int n)
 {
 	int divisor = 1;
 	int digit;
-	int is_negative = 0;
-
+	
 	if (n < 0)
 	{
-		is_negative = 1;
 		_putchar('-');
 		n = -n;
 	}
