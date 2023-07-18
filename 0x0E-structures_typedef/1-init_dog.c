@@ -8,7 +8,7 @@
  * @age:Age of the dog
  * @owner: Pointer to the name of the owner
  */
-void init_dog(dog_t *d, char *name, float age, char *owner);
+void init_dog(dog_t *d, char *name, float age, char *owner)
 {
 	if (d != NULL)
 	{
